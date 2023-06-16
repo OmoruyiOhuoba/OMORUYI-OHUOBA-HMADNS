@@ -72,10 +72,10 @@ InvoiceRoute, ProfileRoute, DrugNotificationRoute);
 
 // //API for deleting a  patient by ID
 // app.delete('/patients/:id', deletePatientByID);
-app.use('/api/paypal', require('./routes/api/paypal'));
+// app.use('/api/paypal', require('./routes/api/paypal'));
 
 
-app.get("/", (req, res) => {
-    res.send("hello world");
-});
+// app.get("/", (req, res) => {
+//     res.send("hello world");
+// });
 
