@@ -28,7 +28,7 @@ let transporter = nodemailer.createTransport({
     var email =req.body.email;
     
     
-    var content = `DRUG NOTIFICATION FROM OMORUYI OHUOBA HOSPITAL MANAGEMENT AND DRUG NOTIFICATION SYSTEM \n\nGood day ${firstName}! \n\nThis is a notification to take your prescribed medication\n \nKindly log in to our platform to see your dosages.\n \nYou can login here: \n\nHave a nice day!`;
+    var content = `DRUG NOTIFICATION FROM OMORUYI OHUOBA HOSPITAL MANAGEMENT AND DRUG NOTIFICATION SYSTEM \n\nGood day ${firstName}! \n\nThis is a notification to take your prescribed medication\n \nKindly log in to our platform to see your dosages.\n \nYou can login here: https://omoruyi-ohuoba-hmadns-production.up.railway.app/ \n\nHave a nice day!`;
     
     var mail = {
       from: "omoruyiohuobahmadns@gmail.com", 
