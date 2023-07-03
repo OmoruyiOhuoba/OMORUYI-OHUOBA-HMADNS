@@ -26,7 +26,7 @@ The Doctors have access to the prescription page to assign medication and specif
 3. Patient
 
 ### ADMIN
-1. Login
+1. Login (Note: the admin user will have to be hardcoded into the database as he cannot be registered into the system)
 2. Access to add/ view/ edit data for all doctors and patients
 3. Create appointment slots for doctors
 4. Add medicine to the inventory
